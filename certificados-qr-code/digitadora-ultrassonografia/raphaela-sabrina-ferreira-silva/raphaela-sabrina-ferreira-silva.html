@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .certificate-container {
+            border: 5px solid #007bff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            position: relative;
+            background-color: #fff;
+        }
+        .certificate-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .certificate-body {
+            text-align: center;
+        }
+        .certificate-body p {
+            font-size: 1.2em;
+        }
+        .certificate-footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .certificate-signature {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .certificate-signature img {
+            max-width: 200px;
+        }
+        .certificate-validity {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .qr-code {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        body {
+            padding-top: 56px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Certificado</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Certificado -->
+    <div class="container">
+        <div class="certificate-container">
+            <div class="certificate-header">
+                <h1>CERTIFICADO</h1>
+                <h3>REALIZAÇÃO DE CURSO DE DIGITAÇÃO DE LAUDOS EM ULTRASSONOGRAFIA</h3>
+                <p>Junho 2024</p>
+            </div>
+            <div class="certificate-body">
+                <p>Este certificado é apresentado a:</p>
+                <h2>RAPHAELA SABRINA FERREIRA SILVA</h2>
+                <p>A participante está capacitada a digitar laudos médicos de exames de ultrassonografia, transcrevendo com precisão as observações e conclusões do médico em um formato digital legível. Demonstrou alta precisão e velocidade na digitação, além de conhecimento em terminologia médica, essencial para a elaboração de laudos em ultrassonografia.</p>
+                <div class="certificate-validity">
+                    <h3>VÁLIDO EM TODO O TERRITÓRIO NACIONAL BRASIL</h3>
+                    <p>DATA DE EXPEDIÇÃO: 20/07/2024</p>
+                </div>
+                <p>RG: MG-22.997.612</p>
+                <p>CPF: 168059286-64</p>
+                <p>DATA DE NASCIMENTO: 23/12/2001</p>
+            </div>
+            <div class="certificate-footer">
+                <p>Para acesso aos dados completos e certificado digital, ler o QR CODE com a câmera do celular.</p>
+                <div class="qr-code">
+                    <img src="https://via.placeholder.com/100" alt="QR Code">
+                </div>
+                <div class="certificate-signature">
+                    <p>______________________________</p>
+                    <p>Pedro Alexandre Camilo de Oliveira</p>
+                    <p>Médico Ultrassonografia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Certificado de Curso de Digitação de Laudos em Ultrassonografia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
